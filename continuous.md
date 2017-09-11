@@ -44,7 +44,7 @@ Variance: λ^−2 (= β2)
 
 ## Normal (or Gaussian) Distribution
 
-__Description: *Describes
+__Description: *Mean value most likley, then decreasing probability as distance from the mean*_
 
 Very important because of the Central Limit Theorem (CLT)
 
@@ -54,10 +54,9 @@ Characteristic 'bell curve' shape
 'Standard normal curve' has total area beneath the curve equal to 1  
 
 Empirical rule:
-            68% of area under curve is within 1 std dev of mean
-            95% of area under curve is within 2 std dev of mean
-            99.7% of area under curve is within 3 std dev of mean
-
+            68% of area under curve is within 1 std dev of mean  
+            95% of area under curve is within 2 std dev of mean  
+            99.7% of area under curve is within 3 std dev of mean  
 
 Example: Distribution of heights in a population
 
@@ -74,9 +73,22 @@ Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/c1aeca6784
 
 ### Student's t Distribution
 
+__Description: *Subcategory of normal distribution used for small samples (<30)*_
+
+Heavier tails than normal distribution
+
+Degrees of freedom drive shape of curve; more deg of freedom = 'sharper' curve = greater confidence  
+            By sample size 30 (deg of freedom = 29), t-dist ~= normal dist  
+
 #### Probability Density Function
 
 ![student t pdf img](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Student_t_pdf.svg/650px-Student_t_pdf.svg.png)
+
+PDF Equation: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/7fb35627dbb7e3dec4f14d60b0b58ea399966f46)    
+Support: x ∈ (−∞; +∞)  
+Paramters: v > 0 (deg of freedom)  
+Expected Value: 0 for v > 1   
+Variance: v / (v-2) for v > 2, infinity for 1 < v </= 2, otherwise undefined  
 
 
 _all images taken from wikipedia_
