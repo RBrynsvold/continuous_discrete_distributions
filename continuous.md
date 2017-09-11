@@ -15,6 +15,7 @@ __Description: *Probability of any given value of x is completely random over th
 
 PDF Equation: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/648692e002b720347c6c981aeec2a8cca7f4182f)  
 Support: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/026357b404ee584c475579fb2302a4e9881b8cce)  
+Paramters: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/adb722a971235b0ed2cf099e6b4d9dc3304936fa)  
 Expected Value: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83f8e71092f95652ba4e65a6916c144aa470f4ec)  
 Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/95f6f2aef440271aa37dec67fe279bb74e4398a4)  
             ^typo - should be 2 not 12
@@ -27,28 +28,48 @@ __Description: *Describes the time between events in a Poisson process*__
 Is a particular case of the gamma distribution, and continuous analogue of the geometric distibution.
 
 Is memoryless, meaning that same pattern of behavior will be expected regardless of previous history
-    (ie equipment failure)
+
+Example: Equipment failure
 
 #### Probability Density Function
 
 ![exponential pdf img](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Exponential_pdf.svg/650px-Exponential_pdf.svg.png)
 
-λ e−λx
-
-PDF Equation: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/648692e002b720347c6c981aeec2a8cca7f4182f)  
-Support: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/026357b404ee584c475579fb2302a4e9881b8cce)  
-Expected Value: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83f8e71092f95652ba4e65a6916c144aa470f4ec)  
-Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/95f6f2aef440271aa37dec67fe279bb74e4398a4)  
-            ^typo - should be 2 not 12
+PDF Equation: λe^−λx  
+Support: x ∈ 0, infinity  
+Paramters: λ > 0 rate, or inverse scale  
+Expected Value: λ^−1 (= β)  
+Variance: λ^−2 (= β2)  
 
 
-## Normal Distribution
+## Normal (or Gaussian) Distribution
+
+__Description: *Describes
+
+Very important because of the Central Limit Theorem (CLT)
+
+Characteristic 'bell curve' shape 
+            Larger standard deviation => shorter wider curve
+
+'Standard normal curve' has total area beneath the curve equal to 1  
+
+Empirical rule:
+            68% of area under curve is within 1 std dev of mean
+            95% of area under curve is within 2 std dev of mean
+            99.7% of area under curve is within 3 std dev of mean
+
+
+Example: Distribution of heights in a population
 
 #### Probability Density Function
 
 ![normal pdf img](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/700px-Normal_Distribution_PDF.svg.png)
 
-![test](https://wikimedia.org/api/rest_v1/media/math/render/svg/1a9287a082350af2fe84ea67da609e32f8591528)
+PDF Equation: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/1a9287a082350af2fe84ea67da609e32f8591528)    
+Support: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/a9c6d458566aec47a7259762034790c8981aefab)  
+Paramters: mu, sigma^2  
+Expected Value: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/2e0b88c13e96068427ea74158dc1ebd8ce63e8b5)   
+Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/c1aeca67847d56ce69da7d74761f189089819b8b)  
 
 
 ### Student's t Distribution
