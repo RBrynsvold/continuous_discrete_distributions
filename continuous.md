@@ -44,7 +44,7 @@ Variance: λ^−2 (= β2)
 
 ## Normal (or Gaussian) Distribution
 
-__Description: *Mean value most likley, then decreasing probability as distance from the mean*_
+__Description: *Mean value most likley, values get less likely at greater distances from mean*__
 
 Very important because of the Central Limit Theorem (CLT)
 
@@ -53,7 +53,7 @@ Characteristic 'bell curve' shape
 
 'Standard normal curve' has total area beneath the curve equal to 1  
 
-Empirical rule:
+Empirical rule:   
             68% of area under curve is within 1 std dev of mean  
             95% of area under curve is within 2 std dev of mean  
             99.7% of area under curve is within 3 std dev of mean  
@@ -73,7 +73,7 @@ Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/c1aeca6784
 
 ### Student's t Distribution
 
-__Description: *Subcategory of normal distribution used for small samples (<30)*_
+__Description: *Subcategory of normal distribution used for small samples (<30)*__
 
 Heavier tails than normal distribution
 
