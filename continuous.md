@@ -1,0 +1,5 @@
+Uniform
+
+Continuous
+
+Normal (+ t)
