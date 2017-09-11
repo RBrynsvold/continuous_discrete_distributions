@@ -13,9 +13,9 @@ __Description: *Probability of any given value of x is completely random over th
 
 ![uniform pdf img](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Uniform_Distribution_PDF_SVG.svg/500px-Uniform_Distribution_PDF_SVG.svg.png)
 
-PDF Equation
-Expected Value
-Variance
+PDF Equation  
+Expected Value  
+Variance 
 
 
 ## Exponential Distribution
@@ -31,9 +31,9 @@ Is memoryless, meaning that same pattern of behavior will be expected regardless
 
 ![exponential pdf img](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Exponential_pdf.svg/650px-Exponential_pdf.svg.png)
 
-PDF Equation
-Expected Value
-Variance
+PDF Equation  
+Expected Value  
+Variance  
 
 
 ## Normal Distribution
