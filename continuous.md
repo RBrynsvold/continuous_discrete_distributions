@@ -13,9 +13,11 @@ __Description: *Probability of any given value of x is completely random over th
 
 ![uniform pdf img](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Uniform_Distribution_PDF_SVG.svg/500px-Uniform_Distribution_PDF_SVG.svg.png)
 
-PDF Equation  
-Expected Value  
-Variance 
+PDF Equation: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/648692e002b720347c6c981aeec2a8cca7f4182f)  
+Support: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/026357b404ee584c475579fb2302a4e9881b8cce)  
+Expected Value: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83f8e71092f95652ba4e65a6916c144aa470f4ec)  
+Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/95f6f2aef440271aa37dec67fe279bb74e4398a4)  
+            ^typo - should be 2 not 12
 
 
 ## Exponential Distribution
@@ -31,9 +33,13 @@ Is memoryless, meaning that same pattern of behavior will be expected regardless
 
 ![exponential pdf img](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Exponential_pdf.svg/650px-Exponential_pdf.svg.png)
 
-PDF Equation  
-Expected Value  
-Variance  
+λ e−λx
+
+PDF Equation: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/648692e002b720347c6c981aeec2a8cca7f4182f)  
+Support: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/026357b404ee584c475579fb2302a4e9881b8cce)  
+Expected Value: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83f8e71092f95652ba4e65a6916c144aa470f4ec)  
+Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/95f6f2aef440271aa37dec67fe279bb74e4398a4)  
+            ^typo - should be 2 not 12
 
 
 ## Normal Distribution
