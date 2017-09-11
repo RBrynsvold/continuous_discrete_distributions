@@ -18,7 +18,6 @@ Support: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/026357b404e
 Paramters: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/adb722a971235b0ed2cf099e6b4d9dc3304936fa)  
 Expected Value: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83f8e71092f95652ba4e65a6916c144aa470f4ec)  
 Variance: ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/95f6f2aef440271aa37dec67fe279bb74e4398a4)  
-            ^typo - should be 2 not 12
 
 
 ## Exponential Distribution
@@ -48,7 +47,7 @@ __Description: *Mean value most likley, values get less likely at greater distan
 
 Very important because of the Central Limit Theorem (CLT)
 
-Characteristic 'bell curve' shape 
+Characteristic 'bell curve' shape   
             Larger standard deviation => shorter wider curve
 
 'Standard normal curve' has total area beneath the curve equal to 1  
